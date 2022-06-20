@@ -11,7 +11,7 @@ app.set('view engine', 'ejs');
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
-mongoose.connect('mongodb://127.0.0.1:27017/toDoListDB');
+mongoose.connect('mongodb+srv://calvinpark:aHZAhLRJW71mT2fC@cluster1.zb1pc53.mongodb.net/todoListDB');
 
 // const toDoListSchema = new mongoose.Schema({     target: {         type:
 // String,         required: [true, "Target is required."]     },     success: {
